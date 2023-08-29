@@ -1,0 +1,68 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/cemgoksu/Projects/IATradeMVC/EntityLayer/EntityLayer.csproj": {}
+  },
+  "projects": {
+    "/Users/cemgoksu/Projects/IATradeMVC/EntityLayer/EntityLayer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/cemgoksu/Projects/IATradeMVC/EntityLayer/EntityLayer.csproj",
+        "projectName": "EntityLayer",
+        "projectPath": "/Users/cemgoksu/Projects/IATradeMVC/EntityLayer/EntityLayer.csproj",
+        "packagesPath": "/Users/cemgoksu/.nuget/packages/",
+        "outputPath": "/Users/cemgoksu/Projects/IATradeMVC/EntityLayer/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/cemgoksu/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
